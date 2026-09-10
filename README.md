@@ -1,6 +1,6 @@
 # Mo Tharak — Portfolio
 
-Personal portfolio of **Mo Tharak**, a SOC Analyst, Cybersecurity Developer, and Systems Developer based in Phnom Penh, Cambodia.
+Personal portfolio of **Mo Tharak**, a SOC Analyst & Developer based in Phnom Penh, Cambodia.
 
 [Visit the portfolio](https://motharak.github.io/portfolio-site/) · [GitHub](https://github.com/motharak) · [LinkedIn](https://www.linkedin.com/in/mo-tharak-2472802ba/) · [Download CV](assets/CV_Mo_Tharak_Cybersecurity.pdf)
 
