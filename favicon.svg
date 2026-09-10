@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" fill="none">
+  <!-- Background subtle rounded dark slate tile -->
+  <rect width="64" height="64" rx="14" fill="#0A0A0F"/>
+  <rect width="64" height="64" rx="14" stroke="#1E1E2E" stroke-width="2"/>
+  
+  <!-- Outer security perimeter brackets -->
+  <path d="M12 24V14H22" stroke="#A855F7" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M52 40V50H42" stroke="#06B6D4" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+  
+  <!-- Geometric M letterform in Cyber Violet -->
+  <path d="M18 44V26L26 36L34 26V44" stroke="#A855F7" stroke-width="3.2" stroke-linecap="round" stroke-linejoin="round"/>
+  
+  <!-- Geometric T letterform with // forward slashes in Electric Cyan -->
+  <path d="M38 26H50M44 26V44" stroke="#06B6D4" stroke-width="3.2" stroke-linecap="round" stroke-linejoin="round"/>
+  
+  <!-- Small Status pulse dot in Terminal Green -->
+  <circle cx="52" cy="14" r="3.5" fill="#22C55E"/>
+</svg>

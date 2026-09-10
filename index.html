@@ -1,0 +1,86 @@
+<!doctype html>
+<html lang="en" class="dark scroll-smooth">
+  <head>
+    <script>
+      (() => {
+        let saved;
+        try { saved = localStorage.getItem('portfolio-theme'); } catch {}
+        const theme = saved === 'light' || saved === 'dark' ? saved : (matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light');
+        document.documentElement.classList.remove('dark', 'light');
+        document.documentElement.classList.add(theme);
+        let paused = false;
+        try { paused = localStorage.getItem('portfolio-motion') === 'paused'; } catch {}
+        document.documentElement.dataset.motion = paused || matchMedia('(prefers-reduced-motion: reduce)').matches ? 'reduced' : 'full';
+      })();
+    </script>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="./favicon.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    
+    <!-- Primary Meta Tags -->
+    <title>Mo Tharak | SOC Analyst & Cybersecurity Engineer</title>
+    <meta name="title" content="Mo Tharak | SOC Analyst & Cybersecurity Engineer" />
+    <meta name="description" content="Professional portfolio of Mo Tharak — SOC Analyst, Cybersecurity Engineer, and Full-Stack Systems Developer. Specializing in SIEM/XDR telemetry, threat intelligence, detection engineering, and defensive security tooling." />
+    <meta name="keywords" content="Mo Tharak, SOC Analyst, Cybersecurity Engineer, Palo Alto Cortex XDR, Wazuh SIEM, Threat Intelligence, Detection Engineering, Full Stack Developer, Phnom Penh, Cambodia" />
+    <meta name="author" content="Mo Tharak" />
+    <meta name="robots" content="index, follow" />
+    <link rel="canonical" href="https://motharak.github.io/" />
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://motharak.github.io/" />
+    <meta property="og:title" content="Mo Tharak | SOC Analyst & Cybersecurity Engineer" />
+    <meta property="og:description" content="Security operations professional who builds the systems, automation, intelligence platforms, and software used to solve security and infrastructure problems." />
+    <meta property="og:image" content="https://motharak.github.io/assets/profile_picture.jpg" />
+
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image" />
+    <meta property="twitter:url" content="https://motharak.github.io/" />
+    <meta property="twitter:title" content="Mo Tharak | SOC Analyst & Cybersecurity Engineer" />
+    <meta property="twitter:description" content="Security operations professional who builds the systems, automation, intelligence platforms, and software used to solve security and infrastructure problems." />
+    <meta property="twitter:image" content="https://motharak.github.io/assets/profile_picture.jpg" />
+
+    <!-- Google Fonts Preconnect & Inter / JetBrains Mono -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+    <!-- Structured Data (JSON-LD) for Person & Profile -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Person",
+      "name": "Mo Tharak",
+      "jobTitle": "SOC Analyst & Cybersecurity Engineer",
+      "address": {
+        "@type": "PostalAddress",
+        "addressLocality": "Phnom Penh",
+        "addressCountry": "Cambodia"
+      },
+      "url": "https://motharak.github.io/",
+      "sameAs": [
+        "https://github.com/motharak",
+        "https://www.linkedin.com/in/mo-tharak-2472802ba/"
+      ],
+      "knowsAbout": [
+        "Cybersecurity Operations",
+        "SOC Alert Triage",
+        "Palo Alto Networks Cortex XDR",
+        "Wazuh SIEM",
+        "Threat Intelligence",
+        "Detection Engineering",
+        "Full-Stack Development",
+        "Rust",
+        "Python",
+        "FastAPI",
+        "React"
+      ]
+    }
+    </script>
+    <script type="module" crossorigin src="./assets/index-BMYxMDi4.js"></script>
+    <link rel="stylesheet" crossorigin href="./assets/index-obcpk_yW.css">
+  </head>
+  <body class="bg-obsidian text-slate-100 antialiased selection:bg-cyber-violet/30 selection:text-cyber-cyan min-h-screen">
+    <div id="root"></div>
+  </body>
+</html>
