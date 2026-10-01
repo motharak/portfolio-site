@@ -1,11 +1,11 @@
 <!doctype html>
-<html lang="en" class="light scroll-smooth">
+<html lang="en" class="dark scroll-smooth">
   <head>
     <script>
       (() => {
         let saved;
-        try { saved = localStorage.getItem('portfolio-theme'); } catch {}
-        const theme = saved === 'light' || saved === 'dark' ? saved : 'light';
+        try { saved = localStorage.getItem('portfolio-theme-modern'); } catch {}
+        const theme = saved === 'light' || saved === 'dark' ? saved : 'dark';
         document.documentElement.classList.remove('dark', 'light');
         document.documentElement.classList.add(theme);
         let paused = false;
@@ -77,8 +77,8 @@
       ]
     }
     </script>
-    <script type="module" crossorigin src="./assets/index-EdN37ePB.js"></script>
-    <link rel="stylesheet" crossorigin href="./assets/index-BZYCfG79.css">
+    <script type="module" crossorigin src="./assets/index-DJqWS57Y.js"></script>
+    <link rel="stylesheet" crossorigin href="./assets/index-BLitQhSX.css">
   </head>
   <body class="bg-obsidian text-slate-100 antialiased selection:bg-cyber-violet/30 selection:text-cyber-cyan min-h-screen">
     <div id="root"></div>
