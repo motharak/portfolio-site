@@ -2,7 +2,7 @@
 
 Personal portfolio of **Mo Tharak**, a SOC Analyst & Developer based in Phnom Penh, Cambodia.
 
-[Visit the portfolio](https://motharak.github.io/portfolio-site/) · [GitHub](https://github.com/motharak) · [LinkedIn](https://www.linkedin.com/in/mo-tharak-2472802ba/) · [Download CV](assets/CV_Mo_Tharak_Cybersecurity.pdf)
+[Visit the portfolio](https://motharak.github.io/portfolio-site/) · [GitHub](https://github.com/motharak) · [LinkedIn](https://www.linkedin.com/in/mo-tharak-2472802ba/) · [Download CV](assets/CV_Mo_Tharak.pdf)
 
 ## Explore
 
@@ -10,7 +10,7 @@ Personal portfolio of **Mo Tharak**, a SOC Analyst & Developer based in Phnom Pe
 - **Experience and skills:** security operations, detection engineering, and software development.
 - **Credentials:** certifications and supporting documents.
 - **Interactive features:** SOC simulation, project details, and a command palette.
-- **Personal touches:** light and dark themes, animated navigation, and a purple terminal workspace background with reduced-motion support.
+- **Personal touches:** purple light and dark themes, a pointer-responsive 3D MT construct, and scroll-driven construction with pause and reduced-motion support.
 
 ## About this repository
 
